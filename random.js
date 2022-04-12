@@ -1,4 +1,4 @@
-Basic function to get multiple strings from an array:
+/* Basic function to get multiple strings from an array: */
 
 function shuffledWords(arr, num) {
     const shuffled = [...arr].sort(() => 0.5 - Math.random());
@@ -7,7 +7,7 @@ function shuffledWords(arr, num) {
 }
 
 
-How to use it:
+/* How to use it: */
 
 let array = ["apple", "mango", "banana", "forward"]
 let random = shuffledWords(array, 2)
